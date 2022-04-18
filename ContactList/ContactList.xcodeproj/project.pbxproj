@@ -12,6 +12,8 @@
 		F7F486412807560D00DCC13A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F486402807560D00DCC13A /* Assets.xcassets */; };
 		F7F486442807560D00DCC13A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F486432807560D00DCC13A /* Preview Assets.xcassets */; };
 		F7F4864B2807565200DCC13A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F4864A2807565200DCC13A /* Model.swift */; };
+		F7F4864D2807583100DCC13A /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F4864C2807583100DCC13A /* UserView.swift */; };
+		F7F4865128075A3000DCC13A /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F4865028075A3000DCC13A /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		F7F486402807560D00DCC13A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7F486432807560D00DCC13A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F7F4864A2807565200DCC13A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F7F4864C2807583100DCC13A /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		F7F4865028075A3000DCC13A /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				F7F4863C2807560C00DCC13A /* ContactListApp.swift */,
-				F7F4863E2807560C00DCC13A /* ContentView.swift */,
-				F7F4864A2807565200DCC13A /* Model.swift */,
+				F7F486522807629800DCC13A /* Model */,
+				F7F48653280762A700DCC13A /* View */,
 				F7F486402807560D00DCC13A /* Assets.xcassets */,
 				F7F486422807560D00DCC13A /* Preview Content */,
 			);
@@ -68,6 +72,24 @@
 				F7F486432807560D00DCC13A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7F486522807629800DCC13A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7F4864A2807565200DCC13A /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F7F48653280762A700DCC13A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7F4863E2807560C00DCC13A /* ContentView.swift */,
+				F7F4864C2807583100DCC13A /* UserView.swift */,
+				F7F4865028075A3000DCC13A /* UserViewModel.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +165,8 @@
 				F7F4864B2807565200DCC13A /* Model.swift in Sources */,
 				F7F4863F2807560C00DCC13A /* ContentView.swift in Sources */,
 				F7F4863D2807560C00DCC13A /* ContactListApp.swift in Sources */,
+				F7F4865128075A3000DCC13A /* UserViewModel.swift in Sources */,
+				F7F4864D2807583100DCC13A /* UserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
